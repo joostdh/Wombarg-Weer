@@ -1,0 +1,91 @@
+/* Universal styling */ 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #14273d;
+    font-weight: 700;
+    color: #fff;
+    font-family: Helvetica, Arial;
+    overflow: hidden;
+}
+
+/* Header styling */
+
+.header h1 {
+    margin-top: 2%;
+    margin-left: 2.8%;
+    font-size: 1.4em;
+}
+
+.intro h1 {
+    margin-top: 8.5%;
+    margin-left: 2.8%;
+    font-size: 3em;
+}
+
+.intro h3 {
+    color: #067EED;
+    margin-top: 20px;
+    margin-left: 2.8%;
+    font-size: 1.6em;
+}
+
+.intro hr {
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 2.8%;
+}
+
+.intro p {
+    margin-top: 40px;
+    margin-left: 2.8%;
+    font-size: 1.4em;
+    width: 350px;
+}
+
+/* Content styling */
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 25% 25% 25%);
+    margin-top: 40px;
+    margin-left: 2.7%;
+}
+
+.content p {
+    padding: 5%;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    padding-top: 13%;
+}
+
+.content b {
+    font-size: 45px;
+}
+
+.box-temp {
+    background: #FF7C1F;
+    height: 200px;
+    width: 400px;
+    border-radius: 35px;
+}
+
+.box-humidity {
+    background: #FF7C1F;
+    height: 200px;
+    width: 400px;
+    border-radius: 35px;
+}
+
+.box-air-pressure {
+    background: #FF7C1F;
+    height: 200px;
+    width: 400px;
+    border-radius: 35px;
+}
