@@ -25,14 +25,15 @@
         <!-- Content -->
         <div class="content">
             <div class="box-temp">
-                <p>Temperatuur: <b>{{temperature}} °C</b></p>
+                <p>Temperatuur: <b id="t">{{temperature}} °C</b></p>
             </div>
-            <div class="box-humidity">
-                <p>Luchtvochtigheid: <b>{{humidity}} %</b></p>
+            <div class="box-humidity" >
+                <p>Luchtvochtigheid: <b id="h">{{humidity}} %</b></p>
             </div>
-            <div class="box-air-pressure">
-                <p>Luchtdruk: <b>{{pressure}} hPa</b></p>
+            <div class="box-air-pressure" >
+                <p>Luchtdruk: <b id="p">{{pressure}}</b><b>  hPa</b></p>
             </div>
         </div>
     </body>
+    <script defer src="app.js"></script>
 </html>
